@@ -1,0 +1,203 @@
+
+.mainCat{
+    height: 100vh;
+}
+
+.bodyCat{
+    margin: 2em 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.init{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.divMapCat{
+    justify-content: center;
+    padding: 3em 3em 0 3em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divMapCat a{
+    text-decoration: none;
+    color: black
+}
+
+.cardCat{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    border-radius: 0.4em;
+    background-color: #fff;
+}
+
+.cardArt .quebra{
+    display: flex;
+    justify-content: center;
+}
+
+.cardArt h3{
+    margin-top: 0;
+    margin-bottom: .8rem;
+    display: flex;
+    padding-top: 0.9em;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.quebra1{
+    margin-left: 1rem;
+}
+
+.quebra2{
+    margin-right: 1rem;
+}
+
+.cardArt .quebra1 p{
+    display: flex;
+    padding-top: 0.7em;
+    padding-right: 1.5em;
+    justify-content: left;
+    font-weight: bold;
+    border-bottom: solid 1px black;
+    padding-left: 1px;
+    white-space: nowrap;
+}
+.cardArt .quebra2 p{
+    display: flex;
+    padding-top: 0.7em;
+    justify-content: right;
+    border-bottom: solid 1px black;
+    padding-right: 3px;
+}
+
+.cardArt h3{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.prod{
+    display: flex;
+    flex-direction: column;
+}
+
+.bodyCat .init a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 12px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #000000;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+    transition: all ease-in-out 0.2s;
+}
+
+.bodyCat .init a:hover{
+    background-color: #004175;
+    color: #fff;
+}
+
+.divButPage{
+    margin: 1rem 0 ;
+    display: flex;
+    justify-content: center;
+}
+
+.divButPage button{
+    background-color: #004175;
+    margin: 0 0.4em;
+    border: none;
+    color: #fff;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+}
+.divButPage button:hover{
+    transform: scale(1.2);
+}
+
+.divButOpc{
+    display: flex;
+    padding: 0.9rem;
+    background-color: #fff;
+    justify-content: space-around;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    text-align: center;
+    align-items: center;
+}
+
+.divButOpc button{
+    padding: 0.6rem 1rem;
+    background-color: #fff;
+    font-size: 14px;
+    border: 1px solid black;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.divButOpc a{
+    padding: 0.6rem 1rem;
+    background-color: #fff;
+    border: 1px solid black;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: all ease-in-out 0.2s;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.divButOpc button:hover{
+    background-color: red;
+    color: #fff;
+}
+
+.divButOpc a:hover{
+    background-color: #004175;
+    color: #fff;
+}
+
+.ic{
+    margin-right: 8px;
+    font-size: 16px;
+}
+.ic2{
+    margin-left: 8px;
+    font-size: 16px;
+}
+
+.mainCat .search{
+    position: relative;
+    bottom: -8rem;
+    right: -4rem;
+    border: none;
+    
+}
+
+.mainCat .search{
+    padding: .5em;
+    width: 15rem;
+    border: none;
+    outline: none;
+}
+
+.mainCat .search::placeholder{
+    color: #7b7b7b;
+}
+
+

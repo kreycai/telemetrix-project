@@ -1,0 +1,24 @@
+.divFormBut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 272px;
+    height: 80px;
+    margin: 0 1rem 1rem 0;
+}
+
+.divFormBut button.buttonForm{
+    padding: 15px 6rem;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #000000;
+    border-radius: 4px;
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+button.buttonForm:hover{
+    color: #fff;
+    background-color: #004175;
+}

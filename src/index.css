@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html{
+  background-color: #F0F2F5;
+  overflow-x: hidden;
+}
+
+/* body {
+  padding: 0 2%;
+} */
+
+a {
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+}

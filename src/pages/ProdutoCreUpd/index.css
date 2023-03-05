@@ -1,0 +1,41 @@
+.divForm{
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+
+}
+
+.form.input{
+    width: 100rem;
+    background-color: red;
+}
+
+.h1Form{
+    text-align: center;
+    padding: 1rem;
+}
+.h1Form2{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.divBut{
+    margin: 1rem 0 ;
+    display: flex;
+    justify-content: center;
+}
+
+.divBut button{
+    background-color: #004175;
+    margin: 0 0.4em;
+    border: none;
+    color: #fff;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
